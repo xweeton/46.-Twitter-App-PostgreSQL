@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 
-const BASE_URL = "https://twitter-api-zeph-goh.sigma-school-full-stack.repl.co";
+const BASE_URL = "https://381-twitter-clone-api.zeph-goh.repl.co";
 
 // Async thunk for fetching a user's posts
 // Async for not freezing whole app, user still perform other action when loading
