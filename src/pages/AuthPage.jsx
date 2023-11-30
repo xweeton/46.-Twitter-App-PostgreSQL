@@ -6,7 +6,7 @@ import useLocalStorage from "use-local-storage";
 
 export default function AuthPage() {
   const loginImage = "https://sig1.co/img-twitter-1";
-  const url = "https://auth-back-end-zeph-goh.sigma-school-full-stack.repl.co";
+  const url = "https://382-twitter-clone-auth-api.zeph-goh.repl.co";
   // Possible values: null (no modal shows), "Login", "Signup"
   const [modalShow, setModalShow] = useState(null);
   const handleShowSignUp = () => setModalShow("SignUp");
