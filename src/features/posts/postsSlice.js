@@ -5,7 +5,7 @@ import { jwtDecode } from "jwt-decode";
 const BASE_URL = "https://381-twitter-clone-api.zeph-goh.repl.co";
 
 // Async thunk for fetching a user's posts
-// Async for not freezing whole app, user still perform other action when loading
+// Async for not freezing whole app, and user still perform other action when loading
 // ProfileMidBody.jsx
 export const fetchPostsByUser = createAsyncThunk(
   "posts/fetchPostsByUser", // name
